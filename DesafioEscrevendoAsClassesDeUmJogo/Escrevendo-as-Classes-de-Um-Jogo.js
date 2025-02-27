@@ -5,7 +5,7 @@ class Heroi {
      this.idade = idade
      this.tipo = tipo
 
-     const classesValidas = ["Barbaro", "Cavaleiro", "Mago", "Bruxo", "Pulgista", "Monge", "Lutador", "Ninja"];
+     const classesValidas = ["Barbaro", "Cavaleiro", "Mago", "Bruxo", "Pulgista", "Monge", "Lutador", "Ninja","barbaro", "cavaleiro", "mago", "bruxo", "pulgista", "monge", "lutador", "ninja"];
      this.tipo = classesValidas.includes(tipo) ? tipo : "Aventureiro";
      }
      escrever () {

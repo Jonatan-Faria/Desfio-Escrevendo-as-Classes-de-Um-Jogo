@@ -1,3 +1,18 @@
+
+// Primeiro criamos uma classe chamada "Heroi" | class Heroi {} |
+// Dentro da classe criamos objetos usando | constructor () {} | dentro do parentese | () | fica o nome dos objetos separados por | , |
+// E dentro das chaves você define os "Objetos" "Constantes" "Variaveis" etc...
+// | this. | define que é um objeto
+// | this.nome | = nome é um objeto  
+// | this.nome = nome | = o objeto nome esta relacionado com a declaração dentro dos parenteses | constructor(nome, idade, tipo) | AVISO: tem que ser igual, se for diferente não funciona.
+// Depois crie os objetos | idade | | tipo |
+// Ainda dentro do | class Heroi | e | constructor | vamos criar uma constante para Limitar a quantidade de classes do heroi. 
+// Isso vai servir pra sempre ter uma resposta não importa se você escolheu uma classe não listada.
+// criamos o constate classesValidas |  const classesValidas = [ ] | separndo as informações com | , |
+// |  this.tipo = classesValidas.includes(tipo) ? tipo : "Aventureiro" | = o objeto tipo é igual | this.tipo = | tudo que esta incluso na...
+// constante classesValidas sendo um objeto tipo | classesValidas.includes(tipo) | se não for encontrado em classesValidas | ? |
+// tipo vai ser "Aventureiro" | tipo : "Aventureiro" | e finaliza com | ; |
+// fechamos a chave do constructor
 class Heroi {
      constructor(nome, idade, tipo) {
 
